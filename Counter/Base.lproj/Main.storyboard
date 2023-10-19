@@ -58,7 +58,7 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="pressClearAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vmM-zk-7Ic"/>
+                                    <action selector="pressClearAllButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xo7-U2-FFa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -90,8 +90,8 @@
                     <connections>
                         <outlet property="buttonMinus" destination="uRY-kb-T4H" id="595-ce-5h2"/>
                         <outlet property="buttonPlus" destination="9pu-lw-2pV" id="rlD-L4-BI1"/>
-                        <outlet property="changeHistory" destination="LcN-52-p9N" id="CPp-tT-fin"/>
-                        <outlet property="clearAll" destination="TZe-0G-6xj" id="bBA-WL-UXz"/>
+                        <outlet property="changeHistoryTextView" destination="LcN-52-p9N" id="PBk-Nw-G6T"/>
+                        <outlet property="clearAllButton" destination="TZe-0G-6xj" id="oAp-kX-LVc"/>
                         <outlet property="labelText" destination="O7g-UA-3NW" id="ifG-SH-gCF"/>
                     </connections>
                 </viewController>
